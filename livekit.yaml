@@ -1,0 +1,19 @@
+port: 7880
+bind_addresses:
+  - ""
+
+rtc:
+  tcp_port: 7881
+  port_range_start: 40000
+  port_range_end: 40200
+  use_external_ip: false
+
+keys:
+  devkey: secret
+
+logging:
+  json: false
+  level: info
+
+turn:
+  enabled: false

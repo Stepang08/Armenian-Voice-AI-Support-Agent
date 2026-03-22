@@ -1,0 +1,18 @@
+# Credentials — never commit these
+.env
+google-credentials.json
+
+# Virtual environment
+.venv/
+
+# ChromaDB data
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
